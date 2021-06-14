@@ -1,0 +1,10 @@
+anchura=int(input())
+altura=int(input())
+caracter=input()
+
+def rectangulo(anchura,altura,caracter):
+    for i in range(altura):
+        for x in range(anchura):
+            print(caracter,end='')
+        print()
+rectangulo(anchura,altura,caracter)
